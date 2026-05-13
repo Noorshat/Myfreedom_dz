@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DZ-10. Динамическое изменение DOM</title>
+
+    <style>
+        .notification {
+            padding: 10px;
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+            margin-top: 5px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Список покупок</h3>
+    <input type="text" id="item-input" placeholder="Что купить?">
+    <button id="add-btn">Добавить</button>
+
+    <ul class="shopping-list"></ul>
+
+    <button id="notify-btn">Показать уведомление</button>
+    <div id="container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
